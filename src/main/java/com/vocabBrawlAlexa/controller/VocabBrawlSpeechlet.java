@@ -46,6 +46,12 @@ public class VocabBrawlSpeechlet  implements SpeechletV2 {
 	    
 	
 
+	public VocabBrawlSpeechlet() {
+			// TODO Auto-generated constructor stub
+		}
+
+
+
 	@Override
 	public void onSessionStarted(SpeechletRequestEnvelope<SessionStartedRequest> requestEnvelope) {
 		log.info("onSessionStarted " );
